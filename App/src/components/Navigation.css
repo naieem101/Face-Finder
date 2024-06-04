@@ -1,0 +1,22 @@
+.navBar{
+    margin: .5rem 0;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navBar p{
+    display:grid;
+    place-content: center;
+    margin:0 1rem;
+    padding:0 1rem;
+    border: 2px solid var(--btnBorder);
+    border-radius: 1rem;
+}
+.navBar img{
+    margin-right: auto;
+    border-radius: 10px;
+}
+.navBar p:hover{
+    background-color: var(--btnHovercolor);
+}

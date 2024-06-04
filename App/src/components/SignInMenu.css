@@ -1,0 +1,28 @@
+.SignInMenu{
+    margin-top: 20vh;
+  }
+.SignInMenu input{
+    padding:.5rem 1rem;
+    margin:1rem;
+}
+.SignInMenu .signInBtn{
+    margin:1rem;
+    padding: .5rem .7rem;
+    font-weight: bold;
+}
+.newAccountLabel{
+    font-size: .8rem;
+    color:grey;
+}
+.registerLabel{
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5.rem;
+    font-size: .9rem;
+    color: var(--btnBorder);
+    cursor: pointer;
+}
+.registerLabel:hover{
+    transform: scale(1.04);
+    color: var(--btnHoverBorder);
+}

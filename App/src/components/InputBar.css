@@ -1,0 +1,26 @@
+.InputBar{
+    margin-top: 20vh;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+.InputBar p{
+    display: grid;
+    place-content: center;
+    margin-left:2vw;
+    padding:0;
+    border: 2px solid var(--btnBorder);
+    border-radius: 1rem;
+    width:15vw;
+    text-align: center;
+    font-weight: bold;
+}
+.InputBar input{
+    width: 40vw;
+    padding:6px;
+    border: 2px solid var(--btnBorder);
+    border-radius: 1rem;
+}
+.InputBar p:hover{
+    background-color: var(--btnHovercolor);
+}

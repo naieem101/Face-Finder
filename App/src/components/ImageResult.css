@@ -1,0 +1,19 @@
+.ImageResult{
+    margin:0;
+    padding:0;
+    width:fit-content;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.hrLine{
+    position: absolute;
+    border:2px solid blue;
+}
+.verLine{
+    position: absolute;
+    border:2px solid blue;
+}

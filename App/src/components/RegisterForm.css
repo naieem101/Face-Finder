@@ -1,0 +1,20 @@
+.RegisterForm{
+    margin-top: 6vh;
+    padding:.5rem 1rem;
+}
+.RegisterForm span{
+    font-size: 2rem;
+    margin-bottom: 6vh;
+    cursor:default;
+}
+
+.RegisterForm input{
+    padding:.5rem 1rem;
+    margin:1rem;
+}
+.registerBtn{
+    margin:1rem;
+    padding: .5rem .7rem;
+    font-weight: bold;
+}
+

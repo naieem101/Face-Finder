@@ -1,0 +1,43 @@
+:root{
+  --btnHovercolor:rgb(135, 206, 235,.3);
+  --btnBorder:skyblue;
+  --btnHoverBorder:rgb(30, 126, 163);
+}
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+.inputBox{
+  border: 2px solid var(--btnBorder);
+  border-radius: 1rem;
+}
+.inputBox:focus{
+  outline: none;
+  border: 2px solid var(--btnHoverBorder);
+  border-radius: 1rem;
+  transform: scale(1.04);
+}
+
+.btn1{
+  display:grid;
+  place-content: center;
+  border: 2px solid var(--btnBorder);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.btn1:hover{
+  background-color: var(--btnHovercolor);
+  border:2px solid var(--btnHoverBorder);
+}
+
+.flexColumnCenter{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flexRowCenter{
+  display:flex;
+  justify-content: center;
+}
